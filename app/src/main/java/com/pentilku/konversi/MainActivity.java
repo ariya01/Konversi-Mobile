@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            tv_hasil.setText("Salah Input");
+            tv_hasil.setText("Salah");
         }
     }
 
