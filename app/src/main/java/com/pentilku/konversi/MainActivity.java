@@ -60,9 +60,13 @@ public class MainActivity extends AppCompatActivity {
         {
             tv_hasil.setText("D");
         }
-        else
+        else if (nilai<=29 && nilai>=0)
         {
             tv_hasil.setText("E");
+        }
+        else
+        {
+            tv_hasil.setText("Salah Input");
         }
     }
 
